@@ -1,0 +1,43 @@
+Let’s continue with **Step 3**.
+
+We previously created an Excel file with the following columns:
+
+* `project_id`
+* `category`
+* `image_id`
+* `caption`
+* `caption_ai`
+
+Now I want to automatically generate the `caption_ai` column using a **local image-captioning model**, specifically **Moondream** (`moondream:1.8b` in Ollama).
+
+**Details:**
+
+* There are four categories: `Reflector`, `RU`, `RU-Montage`, `Visits`.
+* The images are stored in the `img/` folder, with subfolders matching the category names:
+
+  * `img/Reflector/`
+  * `img/RU/`
+  * `img/RU-Montage/`
+  * `img/Visits/`
+* We will use the same Excel file we created earlier.
+
+**Goal:**
+Write a Python script that:
+
+1. Loads the Excel file.
+2. For each row, locates the corresponding image file under
+   `img/<category>/<image_id>.*`
+   (i.e., any file extension).
+3. Calls **Moondream** (`moondream:1.8b`) via **Ollama** to generate a caption for the image.
+4. Uses a *soft constraint* in the prompt so that the model produces **one short sentence**, about **10–12 words maximum**.
+
+   * For example:
+
+     > “Describe this image in one short sentence (max 12 words).”
+5. Fills `caption_ai` for each row, **skipping any rows where `caption_ai` is already non-empty**.
+6. Writes the updated Excel file back to disk (either overwriting the original file or saving it as a new file with a clear, descriptive name).
+
+The script should include the **full Python code** for:
+
+* Calling `ollama run moondream:1.8b` from Python, and
+* Capturing the generated caption to store it in the `caption_ai` column.
