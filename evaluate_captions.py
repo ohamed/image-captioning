@@ -1,8 +1,10 @@
 import pandas as pd
+import argparse
+
 from sacrebleu import corpus_bleu
 from rouge_score import rouge_scorer
 
-EXCEL_PATH = "data/image_metadata_with_ai.xlsx"   # change if needed
+#EXCEL_PATH = "data/image_metadata_with_ai.xlsx"   # change if needed
 
 CATEGORIES = ["Reflector", "RU", "RU-Montage", "Visits"]
 
@@ -39,7 +41,7 @@ def compute_bleu_rouge(references, hypotheses):
     }
 
 
-def main():
+def main(EXCEL_PATH):
     # ---- Load Excel ----
     df = pd.read_excel(EXCEL_PATH)
 
@@ -87,4 +89,16 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Evaluate image captions")
+    parser.add_argument(
+        "--excel",
+        type=str,
+        required=True,
+        help="Path to Excel file containing captions"
+    )
+
+    args = parser.parse_args()
+    EXCEL_PATH = args.excel
+
+    main(EXCEL_PATH)
+
