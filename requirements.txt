@@ -1,0 +1,8 @@
+pandas
+openpyxl
+Pillow
+tqdm
+ollama
+sacrebleu 
+rouge-score
+requests
