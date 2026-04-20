@@ -1,0 +1,355 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.21 of 2022/01/12
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage[T1]{fontenc}
+% T1 fonts will be used to generate the final print and online PDFs,
+% so please use T1 fonts in your manuscript whenever possible.
+% Other font encondings may result in incorrect characters.
+%
+\usepackage{graphicx}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following two lines
+% to display URLs in blue roman font according to Springer's eBook style:
+%\usepackage{color}
+%\renewcommand\UrlFont{\color{blue}\rmfamily}
+%\urlstyle{rm}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsmath}
+
+%
+%
+\begin{document}
+%
+\title{Automatic Image Captioning for Project Documentation at ITE}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Osama Hamed\inst{1}\orcidID{0009-0008-1535-4238} \and
+Second Author\inst{2,3}\orcidID{1111-2222-3333-4444} \and
+Third Author\inst{1}\orcidID{2222--3333-4444-5555}}
+%
+\authorrunning{Hamed et al.}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{
+Institute of Technology and Engineering (ITE), Forschungszentrum Jülich 
+\email{\{o.hamed,e.rosenthal\}@fz-juelich.de }
+%\url{https://www.fz-juelich.de/en/ite}
+%%
+% \and
+% Springer Heidelberg, Tiergartenstr. 17, 69121 Heidelberg, Germany
+%%
+% \email{lncs@springer.com}\\
+%%
+% \and
+% ABC Institute, Rupert-Karls-University Heidelberg, Heidelberg, Germany\\
+% \email{\{abc,lncs\}@uni-heidelberg.de} 
+}
+%
+\maketitle              % typeset the header of the contribution
+%
+%%Moondream, Qwen2.5VL:3b, and LLaVA:7b
+\begin{abstract}
+This paper investigates automatic captioning of historical project images at the ITE using small, locally deployed VLMs. 
+A manually annotated dataset of 120 project images is created and used as ground truth to evaluate three pretrained models: 
+via the Ollama framework under different prompting strategies.
+Caption quality is assessed with BLEU and ROUGE, and an ablation study on temperature, \text{top\_p}, and \text{top\_k} is conducted for Qwen2.5VL:3b with a constrained long-prompt setup. Results show that prompt design and decoding parameters substantially affect corpus-level scores and average caption length, with a tuned long-prompt configuration improving BLEU by 24.8\% over the baseline. These findings highlight both the potential and the current limitations of lightweight, on-premise VLMs for domain-specific project documentation.
+\end{abstract}
+\keywords{Artificial Intelligence \and Natural Language Processing \and Computer Vision  \and Image Captioning \and Vision-Language Models.}
+
+%\and Visual Understanding
+%
+% 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%During the past
+\section{Introduction}
+We are the Institute of Technology and Engineering (ITE), at Forschungszentrum Jülic\footnote{Eng.:~Jülich Research Center}. We participate in and host several long-term research projects. As part of the documentation process, we take enough photos to illustrate specific cases, either to prove the progress, or to archive the delivery. Over the years, this has resulted in thousands of unlabeled images (i.e., without captions). However, acquiring people to label these images, by adding descriptive captions, is a very time-consuming process for human being, but not for artificial intelligence (AI).
+
+% Part of the motivation
+%The recent years have seen significant progress in the AI techniques, among others this include: Deep Learning (DL), Recurrent Neural Networks (RNNs), and Convolutional Neural Networks (CNNs). 
+AI was developed to imitate human intelligence and excel at tasks where humans perform well~\cite{McCarthy1955Proposal,russell2021ai,olteanu2025ai}. 
+In recent years, artificial intelligence has been driven largely by advances in deep learning~\cite{LeCun2015DeepLearning,Schmidhuber2015DeepLearningOverview}, including architectures such as recurrent neural networks (RNNs) for sequential data~\cite{Lipton2015RNNReview} and convolutional neural networks (CNNs) for image and spatial data~\cite{Khan2019CNNArchitecturesSurvey}, and Transformer models for natural language processing (NLP) and sequence transduction~\cite{Vaswani2017Attention}. Consequently, this progress has impacted several fields, including image captioning~\cite{Hossain2019ImageCaptioningSurvey}\footnote{Fix the DOI.}.
+
+The goal of image captioning is to generate of natural language descriptions for images automatically. Image captioning has become increasingly important due to its practical applications in areas like accessibility tools, image search, and human-robot interaction~\cite{Danish2026VLMsurvey}. The approaches to image captioning (IC) were developed over the years. Modern image captioning approaches typically combine CNNs for visual feature extraction with RNNs or Transformers for generating natural language descriptions~\cite{Cahyono2024AutomatedImageCaptioning}.
+
+% This is an ongoing research ... etc.
+%\paragraph{Motivation}This work is part of an ongoing research, where we want to establish the AI initiative at ITE. In this paper, we propose to use the AI techniques that combine NLP, and computer vision (CV) to automate image captioning for the ITE projects. More precisely, we are going to approach this with help of Vision Language Models (VLMs), i.e. an BLIP or BLIP-2 like models.
+
+%%BLIP or BLIP-2 models~\cite{Li2022BLIP}
+This work is part of an ongoing effort to establish an AI initiative at our institution, ITE. Here, we propose using techniques that combine natural language processing (NLP) and computer vision (CV) to automate captioning for historical project images. Specifically, we leverage small and local vision-language models (VLMs), such as Moondream, Qwen2.5 and LLaVA to generate accurate, context-aware descriptions from unlabeled images.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Related Work}
+\section{Background}
+\label{sec:related_work}
+% \begin{theorem}TODO ASAP.\end{theorem}
+
+Image captioning represents a critical multimodal task that integrates advances in CV and NLP to automatically generate textual descriptions of visual content. Traditionally, image captioning relied on template-based and retrieval-based approaches; however, modern deep learning techniques have significantly advanced the field through the development of encoder-decoder architectures combined with attention mechanisms and Transformer-based models. More recently, the emergence of Multimodal Large Language Models (MLLMs) has revolutionized the field by enabling more flexible, context-aware caption generation with enhanced reasoning capabilities. These developments have established a robust foundation for applying automated captioning to practical applications, including project documentation scenarios where manual annotation of large image repositories remains time-consuming and resource-intensive~\cite{Abdulgalil2025ImageCaptioningSurvey}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Problem Statement}
+\section{Experimental Settings}
+
+\subsection{Dataset}
+Our ultimate goal is to generate image captions for different projects automatically. This a typical task, where we need to acquire a labeled dataset to be used as ground truth. However, for the scope of this study, we are going to start with a relatively small dataset of images, i.e., a batch of images that contains 120 images and annotate it manually. This batch was taken from the ... project archive. The pictures were taken between 2017 and 2020, and they belong to four categories.  We ask human annotators—who know about the project—to write informative captions of one to two sentences manually. We end with captions that have an average length of 15.6 words.
+
+\subsection{Proposed Model(Framework) \& Hardware}
+We captioned the images using the following local pretrained VLMs. we are utilizing them as embedded models within Ollama~\footnote{The ollama command is used to download a model locally, e.g.,\textbf{ollama run llava:7b}}, which is an open-source platform for running AI large language models (LLMs) locally.
+
+\paragraph{Moondream} This is a small vision language model designed to run efficiently on edge devices. We utilized it's latest version, a 1.8B-parameter model, aka \textbf{moondream2}. Moondream2 represents our baseline model.  We conducted our experiments with two different prompt lengths: short and long.
+
+%Qwen2.5-VL, 
+\paragraph{Qwen2.5VL:3b} This model belongs to \textbf{Qwen2.5} VLMs family. It is part of the latest series of Qwen LLMs that was pretrained on Alibaba's latest large-scale dataset. For this stage of experiment, we utilized a mid-size VLM with 3B-parameters.
+
+
+\paragraph{Large Language and Vision Assistant (LLaVA)} \textbf{LLaVA} is a multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. %achieving impressive chat capabilities
+We utilized LLaVA's latest version, a 7B-parameter model that mimics the spirit of the multimodal GPT-4.
+
+%\paragraph{Bootstrapped Language-Image Pretraining (BLIP)} BLIP is a vision-language pretraining (VLP) framework designed for both understanding and generation tasks.
+
+%\paragraph{Hardware} The experiments were carried out on a Windows machine  equipped with an NVIDIA RTX PRO 3000 Blackwell Generation Laptop GPU.
+
+%Inter-annotator Agreement/paragraph
+\subsection{Evaluation Metrics}
+The generated captions will be evaluated against the ground truth captions using the following metrics.
+
+\subsubsection{Bilingual Evaluation Understudy (BLEU)} This metric was developed for evaluating machine translation and compares n-grams between a reference text and a system-generated prediction~\cite{Papineni2002BLEU}. BLEU is a precision-oriented metric and has been reported to correlate well with human judgments on translation tasks~\cite{Papineni2002BLEU}.
+
+\subsubsection{Recall-Oriented Understudy for Gisting Evaluation (ROUGE)} This metric was designed for evaluating automatic summarization, where generated text is compared against a ground-truth summary~\cite{Lin2004ROUGE}. ROUGE measures overlap between the two summaries using n-grams, with higher scores indicating greater overlap, and is primarily a recall-oriented metric~\cite{Lin2004ROUGE}.
+
+%%Shall we report it here or in the J. extension?
+%\subsubsection{BERTScore}
+
+%TODO: Reorder/reolace this subsection!
+%\subsection{Train-Test Split: Hide or Show?}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Results \& Discussion}
+
+In this section, we present the quantitative results obtained from evaluating several VLMs on our dataset across two dimensions: (i) comparing the results of different models based on the prompt length, and (ii) fine-tuning the parameters of the \textit{Qwen2.5VL:3b} model. 
+
+As shown in Table~\ref{tab:results}, the models exhibit varying levels of alignment with the human-generated ground-truth captions. These results provide an initial indication of how well current captioning systems generalize to our domain-specific imagery.
+
+Table~\ref{tab:results} summarizes the quantitative evaluation of the tested image-captioning models using three standard corpus-level metrics: BLEU, ROUGE-1 F1, and ROUGE-L F1. The table compares the performance of Moondream and the remaining baselines under a unified evaluation protocol. Higher scores indicate that a model generates captions that more closely match the human-annotated references.
+
+%%%DONE: A short, constrained captioning prompt.
+\begin{table}[t]
+\centering
+\caption{Comparison of captioning performance under different prompting strategies.}
+\label{tab:results}
+\begin{tabular}{lcrrrr}
+\toprule
+\textbf{Model} & \textbf{Prompt} & \textbf{Avg. Length (Words)} &  \textbf{BLEU} & \textbf{ROUGE-1} & \textbf{ROUGE-L} \\
+\midrule
+%Moondream & Short & 0.0 & 0.57 & 0.129 & 0.114 \\ #12 words -- DEL
+Moondream:1.8b & Short  & 7.67 & 0.68 & 0.14 & 0.13 \\
+Moondream:1.8b     & Long & 8.13 & 1.47   & 0.14 & 0.12    \\
+
+%Def => default or standard (Semi-Long or Mid-size)
+%Qwen2.5VL:3b     & Short+Def/Std & 35.52 &  1.33  & 0.20 & 0.15    \\
+Qwen2.5VL:3b     & Short & 17.62 &  1.66  & 0.21 & 0.18    \\
+%Qwen2.5VL:3b     & Semi-Long & 14.03 &  1.77  & 0.20 & 0.17    \\
+%Qwen2.5VL:3b     & Semi-Long + Temp & 13.98 &  1.56  & 0.20 & 0.17    \\
+Qwen2.5VL:3b     & Long & 16.50 &  1.84  & 0.21 & 0.18    \\
+
+
+%LLaVA:7b     & Short & 65.24 &  0.26  & 0.15 & 0.11    \\
+LLaVA:7b     & Short & 54.35 &  0.83  & 0.16 & 0.12    \\
+LLaVA:7b     & Long & 30.78 &  0.84  & 0.17 & 0.13    \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+In the second dimension, we use a long prompt, and adjust three parameters: temperature (or simply temp), \text{top\_p} and  \text{top\_k}.
+Table~\ref{tab:qwen3b-ablation} shows our systematic tuning of Qwen2.5-VL:3b. 
+A tightened prompt constraint (``exactly ONE sentence, 12-18 words'') 
+improved BLEU by 24.8\% over the baseline (1.66 vs. 1.33). 
+Lower temperature (0.3) slightly degraded performance due to over-constraining.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% # 1
+\begin{table}[t]
+\centering
+\caption{Ablation study: Effect of generation parameters on Qwen2.5-VL:3b captioning performance}
+\label{tab:qwen3b-ablation}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Configuration} & \textbf{BLEU} & \textbf{ROUGE-1 F1} & \textbf{ROUGE-L F1} & \textbf{Avg. Length (Words)} \\
+\midrule
+Baseline (default) & 1.33 & 0.1982 & 0.1529 & 35.52 \\
+%Long-Prompt only & \textbf{1.66} & \textbf{0.2082} & \textbf{0.1756} & -- \\
+Long-Prompt only & 1.84 & 0.21 & 0.18 & 16.50 \\
+Temp=0.3, \text{top\_p}=0.8, \text{top\_k}=20  & 0.85 & 0.21 & 0.17 & 16.59 \\
+Temp=0.65, \text{top\_p}=0.85, \text{top\_k}=30  & 2.14 & 0.21 & 0.18 & 16.63 \\
+Temp=1.0, \text{top\_p}=0.9, \text{top\_k}=40  & 1.29 & 0.19 & 0.16 & 16.41\\
+Temp=0.65, \text{top\_p}=0.8, \text{top\_k}=20  & 1.82 & 0.21 & 0.17 & 16.87 \\
+Temp=0.65, \text{top\_p}=0.9, \text{top\_k}=30  & 1.61 & 0.21 & 0.17 & 16.60 \\
+Temp=0.65, \text{top\_p}=0.85, \text{top\_k}=30  & 1.30 & 0.20 & 0.16 & 16.29 \\
+Temp=0.5, \text{top\_p}=0.85, \text{top\_k}=25  & 1.16 & 0.21 & 0.18 & 16.93 \\
+Temp=0.75, \text{top\_p}=0.85, \text{top\_k}=35  & 1.36 & 0.20 & 0.17 & 16.52 \\
+
+% \midrule
+% \textbf{Proposed (TBD)} & & & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%%%%%%%%%% For Shortpaper %%%%%%%%%%%%%%%%%%%%%
+%Table~\ref{tab:qwen3b-tuning}
+% \begin{table}[t]
+% \centering
+% \caption{Qwen2.5-VL:3b tuning results ($N=10$)}
+% \label{tab:qwen3b-tuning}
+% \begin{tabular}{lccc}
+% \toprule
+% \textbf{Method} & \textbf{BLEU $\uparrow$} & \textbf{R-1 $\uparrow$} & \textbf{Words $\downarrow$} \\
+% \midrule
+% Default & 1.33 & 0.20 & 35.5 \\
+% \textbf{Prompt only} & \textbf{1.66} & \textbf{0.21} & -- \\
+% Temp=0.3 & 1.56 & 0.20 & -- \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+
+%%%%%%%%%%%%%%%%%%%%% For Journal Paper Extension %%%%%%%%%%%%%%%%%%%%%
+% \begin{table*}[t]
+% \centering
+% \caption{Systematic ablation study: Qwen2.5-VL:3b generation parameters ($N=10$ images)}
+% \label{tab:qwen3b-parameters}
+% \small
+% \begin{tabular}{llcccc}
+% \toprule
+% \textbf{Prompt} & \textbf{Options} & \textbf{BLEU $\uparrow$} & \textbf{R-1 F1 $\uparrow$} & \textbf{R-L F1 $\uparrow$} & \textbf{Words $\downarrow$} \\
+% \midrule
+% \multirow{6}{*}{\parbox{2.5cm}{Default}} 
+%  & Default & 1.33 & 0.1982 & 0.1529 & 35.52 \\
+%  & temp=0.3 & 1.56 & 0.1988 & 0.1677 & -- \\
+%  & temp=0.65 & -- & -- & -- & -- \\
+%  & temp=1.0 & -- & -- & -- & -- \\
+%  & top-p=0.8 & -- & -- & -- & -- \\
+%  & top-k=20 & -- & -- & -- & -- \\
+% \midrule
+% \multirow{6}{*}{\parbox{2.5cm}{Tight (Option 1)}} 
+%  & Default & \textbf{1.66} & \textbf{0.2082} & \textbf{0.1756} & -- \\
+%  & temp=0.3 & -- & -- & -- & -- \\
+%  & temp=0.65 & -- & -- & -- & -- \\
+%  & top-p=0.85 & -- & -- & -- & -- \\
+%  & top-k=30 & -- & -- & -- & -- \\
+%  & Combined & -- & -- & -- & -- \\
+% \bottomrule
+% \end{tabular}
+% \end{table*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Conclusion \& Future Work}
+Small locally deployed VLMs can support image captioning for institutional archives when prompts and decoding settings are carefully controlled. Performance gains depend more on configuration than on model size. Despite remaining limits in detail and consistency, these models offer a practical option for secure and cost aware documentation workflows.
+
+For future work, we plan to expand our experiments by using a larger dataset of images and more VLMs, including the larger variants of Qwen2.5-VL.
+
+%%%%%%%%%%%%%%%%%%%%% To Be DEL %%%%%%%%%%%%%%%%%%%%%
+% \begin{table}
+% \caption{Table captions should be placed above the
+% tables.}\label{tab1}
+% \begin{tabular}{|l|l|l|}
+% \hline
+% Heading level &  Example & Font size and style\\
+% \hline
+% Title (centered) &  {\Large\bfseries Lecture Notes} & 14 point, bold\\
+% 1st-level heading &  {\large\bfseries 1 Introduction} & 12 point, bold\\
+% 2nd-level heading & {\bfseries 2.1 Printing Area} & 10 point, bold\\
+% 3rd-level heading & {\bfseries Run-in Heading in Bold.} Text follows & 10 point, bold\\
+% 4th-level heading & {\itshape Lowest Level Heading.} Text follows & 10 point, italic\\
+% \hline
+% \end{tabular}
+% \end{table}
+
+
+% \noindent Displayed equations are centered and set on a separate line.
+% \begin{equation} x + y = z\end{equation}
+
+% Avoid rasterized images for line-art diagrams and
+% schemas. Whenever possible, use vector graphics instead (see Fig.~\ref{fig1}).
+% \begin{figure}
+% \includegraphics[width=\textwidth]{fig1.eps}
+% \caption{A figure caption is always placed below the illustration.
+% Please note that short captions are centered, while long ones are
+% justified by the macro package automatically.} \label{fig1}
+% \end{figure}
+
+
+%
+% the environments 'definition', 'lemma', 'proposition', 'corollary',
+% 'remark', and 'example' are defined in the LLNCS documentclass as well.
+%
+
+%Citations using labels or the author/year convention are also acceptable.
+
+% \begin{credits}
+% % \subsubsection{\ackname}
+% % A bold run-in heading in small font size at the end of the paper is
+% % used for general acknowledgments.
+% % Eg.: This study was funded by X (grant number Y).
+
+% \subsubsection{\discintname}
+% % It is now necessary to declare any competing interests or to specifically
+% % state that the authors have no competing interests. Please place the
+% % statement with a bold run-in heading in small font size beneath the
+% % (optional) acknowledgments\footnote{If EquinOCS, our proceedings submission
+% % system, is used, then the disclaimer can be provided directly in the system.},
+% % for example: The authors have no competing interests to declare that are
+% % relevant to the content of this article. Or: Author A has received research
+% % grants from Company W. Author B has received a speaker honorarium from
+% % Company X and owns stock in Company Y. Author C is a member of committee Z -- that are relevant to the content of this article.
+% The authors have no competing interests to declare.
+% \end{credits}
+
+%
+% ---- Bibliography ----
+%
+% BibTeX users should specify bibliography style 'splncs04'.
+% References will then be sorted and formatted in the correct style.
+%%%%%%%%%%%%%%%%%%%%% Ext Bibliography %%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{splncs04}
+\bibliography{references.bib}
+%%%%%%%%%%%%%%%%%%%%% Int Bibliography %%%%%%%%%%%%%%%%%%%%%
+% \begin{thebibliography}{8}
+% \bibitem{ref_article1}
+% Author, F.: Article title. Journal \textbf{2}(5), 99--110 (2016)
+
+% \bibitem{ref_lncs1}
+% Author, F., Author, S.: Title of a proceedings paper. In: Editor,
+% F., Editor, S. (eds.) CONFERENCE 2016, LNCS, vol. 9999, pp. 1--13.
+% Springer, Heidelberg (2016). \doi{10.10007/1234567890}
+
+% \bibitem{ref_book1}
+% Author, F., Author, S., Author, T.: Book title. 2nd edn. Publisher,
+% Location (1999)
+
+% \bibitem{ref_proc1}
+% Author, A.-B.: Contribution title. In: 9th International Proceedings
+% on Proceedings, pp. 1--2. Publisher, Location (2010)
+
+% \bibitem{ref_url1}
+% LNCS Homepage, \url{http://www.springer.com/lncs}, last accessed 2023/10/25
+% \end{thebibliography}
+
+%\begin{apendix}
+%\end{apendix}
+
+\end{document}
