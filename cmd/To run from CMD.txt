@@ -1,2 +1,0 @@
-python generate_captions_moondream.py --excel data/image_metadata.xlsx --img-dir img
-

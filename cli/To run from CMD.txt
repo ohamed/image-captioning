@@ -1,0 +1,58 @@
+REM :::::::::::::::::::::::::::::: Using local AI for Image Captioning ::::::::::::::::::::::::::::::
+
+::Windows CMD for Moondream:
+python generate_captions_moondream.py --excel data/image_metadata.xlsx --img-dir img
+
+::Powershel for LLaVA:
+python caption_llava_ollama.py --input data/image_metadata.xlsx --output data/image_metadata_with_llava.xlsx
+
+
+::Windows CMD for qwen25vl-3b:
+
+:: Test 10 images
+python caption_qwen25vl_ollama.py --input data/image_metadata.xlsx --output data/image_metadata_with_qwen25vl.xlsx --img_root img --model qwen2.5vl:3b --limit 10
+
+:: All images
+python caption_qwen25vl_ollama.py --input data/image_metadata.xlsx --output data/image_metadata_with_qwen25vl.xlsx --img_root img --model qwen2.5vl:3b
+
+
+REM :::::::::::::::::::::::::::::: Model Evaluation ::::::::::::::::::::::::::::::
+
+:: Old syntax, path is hard-coded.
+python evaluate_captions.py
+
+:: New syntax, path is passed as argument.
+python evaluate_captions.py --excel data/image_metadata_with_ai_short.xlsx
+
+python evaluate_captions.py --excel data/image_metadata_with_ai_long.xlsx
+
+python evaluate_captions.py --excel data/image_metadata_with_llava.xlsx
+
+::qwen25vl
+python evaluate_captions.py --excel data/image_metadata_with_qwen25vl.xlsx
+
+python evaluate_captions.py --excel data/image_metadata_with_qwen25vl_short_3552AWL.xlsx
+
+python evaluate_captions.py --excel data/image_metadata_with_qwen25vl_short_1762AWL.xlsx
+
+::BLIP-base
+python evaluate_captions.py --excel data/final_results_blip.xlsx
+
+
+REM :::::::::::::::::::::::::::::: STATS: Average Word Length ::::::::::::::::::::::::::::::
+
+python caption_stats.py data/image_metadata.xlsx
+
+python caption_stats.py data/image_metadata_with_ai_short.xlsx
+
+python caption_stats.py data/image_metadata_with_ai_long.xlsx
+
+python caption_stats.py data/image_metadata_with_llava.xlsx
+
+12-35=35.52 vs 12 -18=
+python caption_stats.py data/image_metadata_with_qwen25vl.xlsx
+
+::BLIP-base
+python caption_stats.py data/final_results_blip.xlsx
+
+
