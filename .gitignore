@@ -1,5 +1,6 @@
 #Custom
-img/*
+img/*/Thumbs.db
+img_bkp/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
