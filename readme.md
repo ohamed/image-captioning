@@ -12,12 +12,18 @@ The pipeline reads an Excel metadata file, resolves each image from the filesyst
 
 ```mermaid
 flowchart LR
-    XLS[(image_metadata.xlsx)] -->|pandas read_excel| PY[Python Script]
-    IMG[(img/category/\nimage_id.*)] -->|base64 encode| PY
-    PY -->|POST /api/generate| OLL[Ollama\nlocalhost:11434]
-    OLL -->|caption text| PY
-    PY -->|caption_ai column| OUT[(output.xlsx)]
-    OUT -->|evaluate_captions.py| EVAL[BLEU / ROUGE Score]
+    XLS[(image_metadata.xlsx)]
+    IMG[(img/)]
+    OLL[Ollama\n:11434]
+    OUT[(output.xlsx)]
+    EVAL[BLEU / ROUGE]
+
+    XLS --> PY[Python Script]
+    IMG --> PY
+    PY --> OLL
+    OLL --> PY
+    PY --> OUT
+    OUT --> EVAL
 ```
 
 ---
@@ -28,18 +34,17 @@ Every row in the Excel file goes through this decision loop before anything is w
 
 ```mermaid
 flowchart TD
-    A([Next row]) --> B{caption_ai\nalready filled?}
-    B -- Yes, skip --> A
-    B -- No --> C[Resolve path\nimg/category/image_id.*]
-    C --> D{Image\nexists?}
-    D -- No --> E[Write\nMISSING IMAGE] --> A
-    D -- Yes --> F[Read & encode\nto base64]
-    F --> G[POST to Ollama\n/api/generate]
-    G --> H{HTTP 200?}
-    H -- No --> I[Retry with\nexponential backoff]
-    I --> H
-    H -- Still failing --> J[Write\nERROR] --> A
-    H -- Yes --> K[Write caption_ai] --> A
+    A([For each row]) --> B{caption_ai\nfilled?}
+    B -- Yes --> A
+    B -- No --> C[Resolve image path]
+    C --> D{File exists?}
+    D -- No --> E([MISSING IMAGE]) 
+    D -- Yes --> F[Encode to base64]
+    F --> G[POST to Ollama]
+    G --> H{Success?}
+    H -- Retry --> G
+    H -- Failed --> I([ERROR])
+    H -- Yes --> J([Write caption_ai])
 ```
 
 After all rows are processed, the entire DataFrame is saved to the output `.xlsx` in a single write.
@@ -50,30 +55,30 @@ After all rows are processed, the entire DataFrame is saved to the output `.xlsx
 
 ```mermaid
 flowchart TB
-    subgraph Scripts
-        G1[caption_llava_ollama.py\nHTTP · llava:7b]
-        G2[caption_qwen25vl_ollama.py\nHTTP + decoding options · qwen2.5vl:3b]
-        G3[generate_captions_moondream.py\nCLI subprocess · moondream:1.8b]
+    subgraph Generators
+        G1[caption_llava_ollama.py]
+        G2[caption_qwen25vl_ollama.py]
+        G3[generate_captions_moondream.py]
+    end
+
+    subgraph Analytics
         EV[evaluate_captions.py]
         ST[caption_stats.py]
     end
 
     subgraph Data
         XLS[(Excel .xlsx)]
-        IMG[(img/ filesystem)]
+        IMG[(img/)]
     end
 
-    subgraph Inference
-        OLL[Ollama daemon\n:11434]
-        VLM[VLM weights\non disk / GPU]
-    end
+    OLL[Ollama :11434]
 
-    G1 & G2 -->|HTTP JSON| OLL
-    G3 -->|ollama run CLI| OLL
-    OLL --- VLM
-    G1 & G2 & G3 --- XLS
-    G1 & G2 & G3 --- IMG
-    EV & ST --- XLS
+    G1 -->|HTTP| OLL
+    G2 -->|HTTP| OLL
+    G3 -->|CLI| OLL
+    Generators --> XLS
+    Generators --> IMG
+    Analytics --> XLS
 ```
 
 Each script is standalone — they share the same Excel schema and image folder convention but have no shared code.
