@@ -2,6 +2,10 @@
 img/*/Thumbs.db
 img_bkp/*
 
+#prompts
+prompts/*.txt
+prompts/*.docx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
