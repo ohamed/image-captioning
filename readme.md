@@ -240,9 +240,9 @@ image-captioning/
 
 ---
 
-## Quick Start using Moondream.
+## Quick Start using Moondream (Assuiming you have Python WPy64-3119 or WPy64-3.13.12.0).
 
-### 1) Install Ollam. 
+### 1) Install Ollama. 
 
 ### 2) Download Moondream from the command line or Ollama GUI.
 
@@ -250,7 +250,9 @@ image-captioning/
 
 ### 4) Install dependencies from the requirements file.
 
-### 5) To test image-captioning, run the Moondream model from command lind.
+### 5) To test image-captioning, run the Moondream model from command line like:
+python generate_captions_moondream.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream.xlsx
+
 
 ---
 
