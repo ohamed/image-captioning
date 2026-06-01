@@ -240,6 +240,20 @@ image-captioning/
 
 ---
 
+## Quick Start using Moondream.
+
+### 1) Install Ollam. 
+
+### 2) Download Moondream from the command line or Ollama GUI.
+
+### 3) Start Ollama and select Moondream as base model.
+
+### 4) Install dependencies from the requirements file.
+
+### 5) To test image-captioning, run the Moondream model from command lind.
+
+---
+
 ## License
 
 MIT © 2025 Osama Hamed
