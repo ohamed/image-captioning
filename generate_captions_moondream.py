@@ -5,7 +5,7 @@ import os
 import pathlib
 import subprocess
 import sys
-
+from evaluate_captions import compute_bleu_rouge
 import pandas as pd
 
 import json
@@ -241,6 +241,10 @@ def main():
     else:
         df["caption_ai"] = df["caption_ai"].astype("string")
 
+    for col in ["BLEU", "ROUGE-1_F", "ROUGE-L_F"]:
+        if col not in df.columns:
+            df[col] = 0.0
+
     processed = 0
 
     # Iterate over rows
@@ -289,7 +293,18 @@ def main():
         #print(f"[Row {idx}] caption_ai = {cleaned_caption}")
         print(f"[Row {idx}] cleaned = '{cleaned_caption}'")
 
+        # Metrics computation
+        x_caption = str(row.get("caption", "")).strip()
 
+        if x_caption and cleaned_caption:
+            scores = compute_bleu_rouge([x_caption], [cleaned_caption])
+            df.at[idx, "BLEU"] = scores["BLEU"]
+            df.at[idx, "ROUGE-1_F"] = scores["ROUGE-1_F"]
+            df.at[idx, "ROUGE-L_F"] = scores["ROUGE-L_F"]
+
+            print(f"[Row {idx}] BLEU={scores['BLEU']:.2f}, ROUGE-1_F={scores['ROUGE-1_F']:.4f}, ROUGE-L_F={scores['ROUGE-L_F']:.4f}")
+        
+        
     # Determine output path
     if args.output:
         output_path = args.output
@@ -301,7 +316,6 @@ def main():
     print(f"Writing updated Excel file to: {output_path}")
     df.to_excel(output_path, index=False)
     print("Done.")
-
 
 if __name__ == "__main__":
     main()
