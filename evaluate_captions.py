@@ -1,7 +1,8 @@
 import pandas as pd
 import argparse
+import sys
 
-from sacrebleu import corpus_bleu
+from sacrebleu import sentence_bleu, corpus_bleu
 from rouge_score import rouge_scorer
 
 #EXCEL_PATH = "data/image_metadata_with_ai.xlsx"   # change if needed
@@ -44,6 +45,36 @@ def compute_bleu_rouge(references, hypotheses):
 def main(EXCEL_PATH):
     # ---- Load Excel ----
     df = pd.read_excel(EXCEL_PATH)
+
+    for col in ["BLEU", "ROUGE-1_F", "ROUGE-L_F"]:
+        if col not in df.columns:
+            df[col] = 0.0
+
+    scorer = rouge_scorer.RougeScorer(['rouge1', 'rougeL'], use_stemmer=True)
+    print("Calculating row-by-row sentence metrics...")
+
+    for idx, row in df.iterrows():
+        ref = row.get("caption", None)
+        hyp = row.get("caption_ai", None)
+        
+        ref = str(ref).strip() if pd.notna(ref) else ""
+        hyp = str(hyp).strip() if pd.notna(hyp) else ""
+
+        if ref and hyp:
+            bleu_score = sentence_bleu(hyp.lower(), [ref.lower()]).score
+            rouge_scores = scorer.score(ref, hyp)
+            
+            df.at[idx, "BLEU"] = round(bleu_score, 2)
+            df.at[idx, "ROUGE-1_F"] = round(rouge_scores['rouge1'].fmeasure, 4)
+            df.at[idx, "ROUGE-L_F"] = round(rouge_scores['rougeL'].fmeasure, 4)
+        else:
+            df.at[idx, "BLEU"] = 0.0
+            df.at[idx, "ROUGE-1_F"] = 0.0
+            df.at[idx, "ROUGE-L_F"] = 0.0
+
+    print(f"Saving updated metrics back to: {EXCEL_PATH}")
+    df.to_excel(EXCEL_PATH, index=False)
+    print("Save complete.\n")
 
     # Keep only rows where both captions are non-empty
     def non_empty(x):
@@ -101,4 +132,3 @@ if __name__ == "__main__":
     EXCEL_PATH = args.excel
 
     main(EXCEL_PATH)
-
