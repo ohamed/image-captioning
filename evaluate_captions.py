@@ -32,8 +32,8 @@ def compute_bleu_rouge(references, hypotheses):
         rouge1_f += scores['rouge1'].fmeasure
         rougeL_f += scores['rougeL'].fmeasure
 
-    rouge1_f /= max(n, 1)
-    rougeL_f /= max(n, 1)
+    rouge1_f /= max(n, 1) * 100.0  # convert to percentage
+    rougeL_f /= max(n, 1) * 100.0
 
     return {
         "BLEU": bleu_score,
@@ -64,9 +64,9 @@ def main(EXCEL_PATH):
             bleu_score = sentence_bleu(hyp.lower(), [ref.lower()]).score
             rouge_scores = scorer.score(ref, hyp)
             
-            df.at[idx, "BLEU"] = round(bleu_score, 2)
-            df.at[idx, "ROUGE-1_F"] = round(rouge_scores['rouge1'].fmeasure, 4)
-            df.at[idx, "ROUGE-L_F"] = round(rouge_scores['rougeL'].fmeasure, 4)
+            df.at[idx, "BLEU"] = round(bleu_score,2)
+            df.at[idx, "ROUGE-1_F"] = round(rouge_scores['rouge1'].fmeasure * 100.0, 4)
+            df.at[idx, "ROUGE-L_F"] = round(rouge_scores['rougeL'].fmeasure * 100.0, 4)
         else:
             df.at[idx, "BLEU"] = 0.0
             df.at[idx, "ROUGE-1_F"] = 0.0
@@ -93,7 +93,7 @@ def main(EXCEL_PATH):
     overall_scores = compute_bleu_rouge(refs_all, hyps_all)
 
     print("=== Overall corpus-level scores ===")
-    print(f"BLEU:       {overall_scores['BLEU']:.2f}")
+    print(f"BLEU:       {overall_scores['BLEU']:.4f}")
     print(f"ROUGE-1 F1: {overall_scores['ROUGE-1_F']:.4f}")
     print(f"ROUGE-L F1: {overall_scores['ROUGE-L_F']:.4f}")
     print()
@@ -114,7 +114,7 @@ def main(EXCEL_PATH):
 
         print(f"\nCategory: {cat}")
         print(f"  #examples: {len(df_cat)}")
-        print(f"  BLEU:       {scores['BLEU']:.2f}")
+        print(f"  BLEU:       {scores['BLEU']:.4f}")
         print(f"  ROUGE-1 F1: {scores['ROUGE-1_F']:.4f}")
         print(f"  ROUGE-L F1: {scores['ROUGE-L_F']:.4f}")
 
