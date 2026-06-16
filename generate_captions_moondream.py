@@ -5,7 +5,7 @@ import os
 import pathlib
 import subprocess
 import sys
-from evaluate_captions import compute_bleu_rouge
+
 import pandas as pd
 
 import json
@@ -241,65 +241,55 @@ def main():
     else:
         df["caption_ai"] = df["caption_ai"].astype("string")
 
-    for col in ["BLEU", "ROUGE-1_F", "ROUGE-L_F"]:
-        if col not in df.columns:
-            df[col] = 0.0
-
     processed = 0
 
     # Iterate over rows
-    # Iterate over rows
     for idx, row in df.iterrows():
         value = row.get("caption_ai", None)
-        cleaned_caption = ""
-
+        # Treat NaN as empty; only skip if it's non-empty real text
         if pd.notna(value) and str(value).strip():
-            # Caption already exists; load it for the evaluation phase
-            cleaned_caption = str(value).strip()
-        else:
-            # Caption is missing; we need to generate it
-            category = row.get("category", "")
-            image_id = row.get("image_id", "")
+            continue
 
-            if pd.isna(category) or pd.isna(image_id):
-                print(f"[Row {idx}] Missing category or image_id, skipping.", file=sys.stderr)
-                continue
+        category = row.get("category", "")
+        image_id = row.get("image_id", "")
 
-            image_path = find_image_path(img_dir, category, image_id)
-            if not image_path:
-                print(f"[Row {idx}] No image found for category='{category}', image_id='{image_id}', skipping.", file=sys.stderr)
-                continue
+        if pd.isna(category) or pd.isna(image_id):
+            print(
+                f"[Row {idx}] Missing category or image_id, skipping.",
+                file=sys.stderr,
+            )
+            continue
 
-            print(f"[Row {idx}] Generating caption for image: {image_path}")
-            caption = generate_caption_with_moondream(image_path, model=model_name)
-            
-            if caption is None:
-                print(f"[Row {idx}] Failed to generate caption for image '{image_id}'.", file=sys.stderr)
-                continue
+        image_path = find_image_path(img_dir, category, image_id)
+        if not image_path:
+            print(
+                f"[Row {idx}] No image found for category='{category}', "
+                f"image_id='{image_id}', skipping.",
+                file=sys.stderr,
+            )
+            continue
 
-            cleaned_caption = clean_caption(caption)
-            if cleaned_caption == "":
-                cleaned_caption = caption.strip().capitalize()
-
-            df.at[idx, "caption_ai"] = cleaned_caption
-            processed += 1
-            print(f"[Row {idx}] cleaned = '{cleaned_caption}'")
-
-        x_caption = row.get("caption", None)
-        if pd.isna(x_caption):
-            x_caption = ""
-        else:
-            x_caption = str(x_caption).strip()
-
-        if x_caption and cleaned_caption:
-            scores = compute_bleu_rouge([x_caption], [cleaned_caption])
-            
-            df.at[idx, "BLEU"] = scores["BLEU"]
-            df.at[idx, "ROUGE-1_F"] = scores["ROUGE-1_F"]
-            df.at[idx, "ROUGE-L_F"] = scores["ROUGE-L_F"]
-            
-            print(f"[Row {idx}] Evaluated -> BLEU={scores['BLEU']:.2f}, ROUGE-1={scores['ROUGE-1_F']:.4f}, ROUGE-L={scores['ROUGE-L_F']:.4f}")
+        print(f"[Row {idx}] Generating caption for image: {image_path}")
         
+        caption = generate_caption_with_moondream(image_path, model=model_name)
+        
+        if caption is None:
+            print(f"[Row {idx}] Failed to generate caption for image '{image_id}'.", file=sys.stderr)
+            continue
+
+        ### 11-12-2025 OH:
+        cleaned_caption = clean_caption(caption)
+        
+        if cleaned_caption == "":
+            cleaned_caption = caption.strip().capitalize()
+
+        df.at[idx, "caption_ai"] = cleaned_caption
+        
+        processed += 1
+        #print(f"[Row {idx}] caption_ai = {cleaned_caption}")
+        print(f"[Row {idx}] cleaned = '{cleaned_caption}'")
+
+
     # Determine output path
     if args.output:
         output_path = args.output
@@ -311,6 +301,7 @@ def main():
     print(f"Writing updated Excel file to: {output_path}")
     df.to_excel(output_path, index=False)
     print("Done.")
+
 
 if __name__ == "__main__":
     main()
