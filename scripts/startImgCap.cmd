@@ -1,8 +1,8 @@
 @echo off
 setlocal
 
-set "WORKINGDIRECTORY="C:\Users\%USERNAME%\Documents\Dev\GitHub\AgraSim"
-set "VENV=C:\Users\%USERNAME%\Envs\agrasim-ydata-py3119"
+set "WORKINGDIRECTORY="C:\Users\%USERNAME%\Documents\Dev\GitHub\image-captioning"
+set "VENV=C:\Users\%USERNAME%\Envs\imgcap-gpu-py3119"
 
 cd /d "%WORKINGDIRECTORY%"
 call "%VENV%\Scripts\activate.bat"
