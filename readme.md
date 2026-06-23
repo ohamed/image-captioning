@@ -250,9 +250,11 @@ image-captioning/
 
 ### 4) Install dependencies from the requirements file.
 
-### 5) To test image-captioning, run the Moondream model from command line like:
+### 5) To test image-captioning using VLMs approach, run the Moondream model from command line like:
 python generate_captions_moondream.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream.xlsx
-python evaluate_captions.py --excel demo/image_metadata_with_qwen25vl_conf6.xlsx
+
+### 6) To evaluate the captions generated using moondream, run command line like:
+python evaluate_captions.py --excel demo/ic_demo_with_moondream.xlsx
 
 
 ---
