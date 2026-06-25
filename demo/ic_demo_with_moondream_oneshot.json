@@ -1,0 +1,146 @@
+[
+    {
+        "row_index": 0,
+        "image_id": "20180105_101214",
+        "category": "Reflector",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "urn of steel with square pattern on top and four holes in center",
+        "final_cleaned_caption": "Containers of steel with square pattern on top and four holes in center"
+    },
+    {
+        "row_index": 1,
+        "image_id": "DSCN0190",
+        "category": "Reflector",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "!!! steel plate with two solid pins, four holes and threaded holes",
+        "final_cleaned_caption": "!!! steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 2,
+        "image_id": "DSC_0078",
+        "category": "Reflector",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ids of steel plates are 2,3,4,5",
+        "final_cleaned_caption": "Ids of steel plates are 2,3,4,5"
+    },
+    {
+        "row_index": 4,
+        "image_id": "IMG_3411",
+        "category": "Reflector",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "urn of steel plates with two solid pins, four holes and threaded holes",
+        "final_cleaned_caption": "Containers of steel plates with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 5,
+        "image_id": "erster RU-Motor ohne Bremse (2)",
+        "category": "RU",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 6,
+        "image_id": "IMG_4784",
+        "category": "RU",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 7,
+        "image_id": "IMG_4787",
+        "category": "RU",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a white steel plate with two holes and four threads.",
+        "final_cleaned_caption": "Ers of a white steel plate with two holes and four threads"
+    },
+    {
+        "row_index": 8,
+        "image_id": "P1010200",
+        "category": "RU",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ersack of black steel plates with two holes and four holes in between.",
+        "final_cleaned_caption": "Ersack of black steel plates with two holes and four holes in between"
+    },
+    {
+        "row_index": 9,
+        "image_id": "P1010225",
+        "category": "RU",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "the center.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 10,
+        "image_id": "Montage_Rotation_Unit (1)",
+        "category": "RU-Montage",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 11,
+        "image_id": "P1010686",
+        "category": "RU-Montage",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "urn made of metal that has six holes in it",
+        "final_cleaned_caption": "Containers made of metal that has six holes in it"
+    },
+    {
+        "row_index": 12,
+        "image_id": "P1010698",
+        "category": "RU-Montage",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 13,
+        "image_id": "P1010785",
+        "category": "RU-Montage",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "urn containing a metal object that is attached to a machine by a chain",
+        "final_cleaned_caption": "Containers containing a metal object that is attached to a machine by a chain"
+    },
+    {
+        "row_index": 14,
+        "image_id": "P1010868",
+        "category": "RU-Montage",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 15,
+        "image_id": "zea_1_vs_visit_01",
+        "category": "Visits",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "urn of a large round table with two holes in it",
+        "final_cleaned_caption": "Containers of a large round table with two holes in it"
+    },
+    {
+        "row_index": 16,
+        "image_id": "zea_1_vs_visit_06",
+        "category": "Visits",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 17,
+        "image_id": "zea_1_vs_visit_56",
+        "category": "Visits",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    },
+    {
+        "row_index": 18,
+        "image_id": "zea_1_vs_visit_83",
+        "category": "Visits",
+        "prompt_used": "You are an expert technical documenter. The following example demonstrates the exact concise, lowercase, noun-heavy language style required for engineering logs:'steel plate with two solid pins, four holes and threaded holes'Analyze the following target image and write a matching one-sentence technical caption. ",
+        "raw_model_output": "ers of a steel plate with two solid pins, four holes and threaded holes.",
+        "final_cleaned_caption": "Ers of a steel plate with two solid pins, four holes and threaded holes"
+    }
+]

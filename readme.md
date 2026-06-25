@@ -251,10 +251,18 @@ image-captioning/
 ### 4) Install dependencies from the requirements file.
 
 ### 5) To test image-captioning, run the Moondream model from command line like:
+
+Zero-Shot:
 python generate_captions_moondream.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream.xlsx
-python evaluate_captions.py --excel demo/image_metadata_with_qwen25vl_conf6.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream.xlsx
 
+One-Shot:
+python generate_captions_moondream_oneshot.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream_oneshot.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream_oneshot.xlsx
 
+Few-Shot:
+python generate_captions_moondream_fewshot.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream_fewshot.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream_fewshot.xlsx
 ---
 
 ## License
