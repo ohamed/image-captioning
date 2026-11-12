@@ -11,6 +11,11 @@ import pandas as pd
 import json
 import re
 
+Prompts = {
+    "Zero Shot": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Now describe this image in the same objective, noun-heavy technical style: ",
+    "One Shot": "You are a technical documentation expert. Describe what is visible in this image using concise,lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements.Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holes. Now describe this image in the same objective, noun-heavy technical style:",
+    "Few Shot": "You are a technical documentation expert. Describe what is visible in this image using concise,lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements.Examples of the exact required style: - A stainless steel disc with a finished surface and 8 threaded holes.- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached. - technician wearing safety glasses operating milling machine while measuring workpiece with digital caliper. Now describe this image in the same objective, noun-heavy technical style: "
+}
 def clean_caption(text: str) -> str:
     if not isinstance(text, str):
         return ""
@@ -104,6 +109,7 @@ def normalize_for_ollama(image_path: str) -> str:
 
 
 def generate_caption_with_moondream(image_path: str,
+                                    base_prompt: str,
                                     model: str = "moondream:1.8b") -> str | None:
     """
     Call `ollama run moondream:1.8b` on an image and return the caption text.
@@ -135,17 +141,14 @@ def generate_caption_with_moondream(image_path: str,
         "Do not use the words 'urn', 'ids', 'idsignature', or 'ers'. "
         "Write one clear technical sentence of approximately 12 to 18 words."
     )
-    """
+    
     
     base_prompt = (
-        "You are an expert technical documenter describing engineering lab images. "
-        "Provide an objective, detailed caption of what is visually present. "
-        "Identify visible objects, materials, quantities, shapes, labels, and spatial relationships. "
-        "Describe tools, components, calibration items, or mechanical parts when clearly visible. "
-        "Use precise, neutral technical language and avoid speculation. "
-        "Do not use the words 'urn', 'ids', 'idsignature', or 'ers'. "
-        "Write one or two sentences with a total length between 15 and 35 words."
+        "You are a technical documentation expert. Describe what is visible in this image using concise, "
+        "lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. "
+        "Now describe this image in the same objective, noun-heavy technical style: "
     )
+    """
 
     image_token = normalize_for_ollama(image_path)
     full_prompt = f"{base_prompt} {image_token}"
@@ -224,12 +227,22 @@ def main():
         default="moondream:1.8b",
         help="Ollama model name to use (default: moondream:1.8b).",
     )
+    parser.add_argument(
+        "--mode",
+        choices=["Zero Shot", "One Shot", "Few Shot"],
+        default="Zero Shot",
+        help="Select the prompting strategy to use"
+        )
 
     args = parser.parse_args()
+
+    selected_prompt = Prompts[args.mode]
+    print(f"Using prompt mode: {args.mode}")
 
     excel_path = args.excel
     img_dir = args.img_dir
     model_name = args.model
+    mode = args.mode
 
     print(f"Loading Excel file: {excel_path}")
     df = pd.read_excel(excel_path)
@@ -271,7 +284,7 @@ def main():
 
         print(f"[Row {idx}] Generating caption for image: {image_path}")
         
-        caption = generate_caption_with_moondream(image_path, model=model_name)
+        caption = generate_caption_with_moondream(image_path, model=model_name, base_prompt=selected_prompt)
         
         if caption is None:
             print(f"[Row {idx}] Failed to generate caption for image '{image_id}'.", file=sys.stderr)
@@ -295,7 +308,11 @@ def main():
         output_path = args.output
     else:
         p = pathlib.Path(excel_path)
-        output_path = str(p.with_name(p.stem + "_with_ai" + p.suffix))
+        safe_mode_name = args.mode.replace(" ", "_")
+        safe_model_name = args.model.replace(":", "-").replace("/", "-")
+        
+        # Format: original_name_moondream-1.8b_Few_Shot.xlsx
+        output_path = str(p.with_name(f"{p.stem}_{safe_model_name}_{safe_mode_name}{p.suffix}"))
 
     print(f"Processed rows with new captions: {processed}")
     print(f"Writing updated Excel file to: {output_path}")

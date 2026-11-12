@@ -1,0 +1,754 @@
+[
+    {
+        "row_index": 0,
+        "image_id": "20180105_101214",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 1,
+        "image_id": "20180105_101224",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 2,
+        "image_id": "20180302_135657",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 3,
+        "image_id": "20180302_135706",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 4,
+        "image_id": "20180418-Vortest-1",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a silver disc with 8 holes on its surface.",
+        "final_cleaned_caption": "Containers containing a silver disc with 8 holes on its surface"
+    },
+    {
+        "row_index": 5,
+        "image_id": "20180418-Vortest-2",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a silver disc with 8 holes on its surface.",
+        "final_cleaned_caption": "Containers containing a silver disc with 8 holes on its surface"
+    },
+    {
+        "row_index": 6,
+        "image_id": "DSC03030",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn of silver metal on a table.",
+        "final_cleaned_caption": "Containers of silver metal on a table"
+    },
+    {
+        "row_index": 7,
+        "image_id": "DSCN0156",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing silver metal pieces on top of a table.",
+        "final_cleaned_caption": "Containers containing silver metal pieces on top of a table"
+    },
+    {
+        "row_index": 9,
+        "image_id": "DSCN0163",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing metal parts",
+        "final_cleaned_caption": "Containers containing metal parts"
+    },
+    {
+        "row_index": 10,
+        "image_id": "DSCN0174",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "to show off the disc.",
+        "final_cleaned_caption": "To show off the disc"
+    },
+    {
+        "row_index": 13,
+        "image_id": "DSC_0078",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 15,
+        "image_id": "IMG_0447",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "and shape, with a small label visible on one of them.",
+        "final_cleaned_caption": "And shape, with a small label visible on one of them"
+    },
+    {
+        "row_index": 16,
+        "image_id": "IMG_0448",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "discs are covered with a layer of black text that reads \"7.5.0.82-85\".",
+        "final_cleaned_caption": "Discs are covered with a layer of black text that reads \"7.5.0.82-85\""
+    },
+    {
+        "row_index": 19,
+        "image_id": "IMG_0454",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 20,
+        "image_id": "IMG_0462",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of water on a shelf.",
+        "final_cleaned_caption": "Containers of water on a shelf"
+    },
+    {
+        "row_index": 23,
+        "image_id": "IMG_2767",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 24,
+        "image_id": "IMG_2768",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn of liquid on table next to man's face.",
+        "final_cleaned_caption": "Containers of liquid on table next to man's face"
+    },
+    {
+        "row_index": 25,
+        "image_id": "IMG_3411",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal that appear to be made of stainless steel.",
+        "final_cleaned_caption": "Containers of metal that appear to be made of stainless steel"
+    },
+    {
+        "row_index": 26,
+        "image_id": "IMG_3414",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of silver metal on a table.",
+        "final_cleaned_caption": "Containers of silver metal on a table"
+    },
+    {
+        "row_index": 27,
+        "image_id": "IMG_3424",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 28,
+        "image_id": "IMG_3425",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a silver metal object that is being held by someone's hand.",
+        "final_cleaned_caption": "Containers containing a silver metal object that is being held by someone's hand"
+    },
+    {
+        "row_index": 29,
+        "image_id": "P1010314",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "instruction manual related to the discs and their assembly or use.",
+        "final_cleaned_caption": "Instruction manual related to the discs and their assembly or use"
+    },
+    {
+        "row_index": 32,
+        "image_id": "erster RU-Motor ohne Bremse (4)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a silver disc with a hole on each side.",
+        "final_cleaned_caption": "Containers containing a silver disc with a hole on each side"
+    },
+    {
+        "row_index": 35,
+        "image_id": "IMG_4784",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "black handle on the right side.",
+        "final_cleaned_caption": "Black handle on the right side"
+    },
+    {
+        "row_index": 36,
+        "image_id": "IMG_4787",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "objects, including a yellow forklift in the background.",
+        "final_cleaned_caption": "Objects, including a yellow forklift in the background"
+    },
+    {
+        "row_index": 37,
+        "image_id": "IMG_4792",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "cover most of the background.",
+        "final_cleaned_caption": "Cover most of the background"
+    },
+    {
+        "row_index": 40,
+        "image_id": "P1010222",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "it's ready for use or storage.",
+        "final_cleaned_caption": "It's ready for use or storage"
+    },
+    {
+        "row_index": 41,
+        "image_id": "P1010224",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "and proper assembly.",
+        "final_cleaned_caption": "And proper assembly"
+    },
+    {
+        "row_index": 45,
+        "image_id": "P1010230",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "label or a sticker.",
+        "final_cleaned_caption": "Label or a sticker"
+    },
+    {
+        "row_index": 46,
+        "image_id": "P1010267",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "along its side.",
+        "final_cleaned_caption": "Along its side"
+    },
+    {
+        "row_index": 47,
+        "image_id": "P1010323",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a silver disc with 8 threaded holes.",
+        "final_cleaned_caption": "Containers containing a silver disc with 8 threaded holes"
+    },
+    {
+        "row_index": 48,
+        "image_id": "P1010335",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn of metal parts on a lathe.",
+        "final_cleaned_caption": "Containers of metal parts on a lathe"
+    },
+    {
+        "row_index": 49,
+        "image_id": "P1010337",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "\"9/1/2015\".",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 50,
+        "image_id": "P1010338",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "wooden border running along its edge.",
+        "final_cleaned_caption": "Wooden border running along its edge"
+    },
+    {
+        "row_index": 51,
+        "image_id": "P1010347",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "its intricate design and inner workings.",
+        "final_cleaned_caption": "Its intricate design and inner workings"
+    },
+    {
+        "row_index": 52,
+        "image_id": "P1010544",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "table or countertop made of wood.",
+        "final_cleaned_caption": "Table or countertop made of wood"
+    },
+    {
+        "row_index": 53,
+        "image_id": "P1010601",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 54,
+        "image_id": "P1010616",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "silver metal rod.",
+        "final_cleaned_caption": "Silver metal rod"
+    },
+    {
+        "row_index": 55,
+        "image_id": "P1010617",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "striped object placed nearby.",
+        "final_cleaned_caption": "Striped object placed nearby"
+    },
+    {
+        "row_index": 56,
+        "image_id": "P1010621",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 57,
+        "image_id": "P1010623",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "suggesting it may be used for assembly or disassembly purposes.",
+        "final_cleaned_caption": "Suggesting it may be used for assembly or disassembly purposes"
+    },
+    {
+        "row_index": 58,
+        "image_id": "P1010625",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 61,
+        "image_id": "Montage_Rotation_Unit (11)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 63,
+        "image_id": "Montage_Rotation_Unit (13)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "warehouse.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 64,
+        "image_id": "Montage_Rotation_Unit (2)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "shows various tools and equipment scattered around the workspace.",
+        "final_cleaned_caption": "Shows various tools and equipment scattered around the workspace"
+    },
+    {
+        "row_index": 65,
+        "image_id": "Montage_Rotation_Unit (3)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "scattered around the room, suggesting an industrial setting or workshop.",
+        "final_cleaned_caption": "Scattered around the room, suggesting an industrial setting or workshop"
+    },
+    {
+        "row_index": 66,
+        "image_id": "Montage_Rotation_Unit (4)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a large metal disc with 8 holes on its top.",
+        "final_cleaned_caption": "Containers containing a large metal disc with 8 holes on its top"
+    },
+    {
+        "row_index": 67,
+        "image_id": "Montage_Rotation_Unit (5)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "with various equipment and machinery.",
+        "final_cleaned_caption": "With various equipment and machinery"
+    },
+    {
+        "row_index": 68,
+        "image_id": "Montage_Rotation_Unit (7)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing silver metal pieces on top of wooden pallet.",
+        "final_cleaned_caption": "Containers containing silver metal pieces on top of wooden pallet"
+    },
+    {
+        "row_index": 69,
+        "image_id": "Montage_Rotation_Unit (8)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "as a wooden pallet and a blue crate.",
+        "final_cleaned_caption": "As a wooden pallet and a blue crate"
+    },
+    {
+        "row_index": 71,
+        "image_id": "P1010684",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 72,
+        "image_id": "P1010685",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 73,
+        "image_id": "P1010686",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 74,
+        "image_id": "P1010687",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 75,
+        "image_id": "P1010688",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 76,
+        "image_id": "P1010689",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 77,
+        "image_id": "P1010690",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 78,
+        "image_id": "P1010691",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 79,
+        "image_id": "P1010692",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 80,
+        "image_id": "P1010694",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "there is a black box and a red brick stand.",
+        "final_cleaned_caption": "There is a black box and a red brick stand"
+    },
+    {
+        "row_index": 81,
+        "image_id": "P1010695",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 83,
+        "image_id": "P1010697",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "surface with a yellow measuring tape placed horizontally across them.",
+        "final_cleaned_caption": "Surface with a yellow measuring tape placed horizontally across them"
+    },
+    {
+        "row_index": 86,
+        "image_id": "P1010704",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing 4 silver discs arranged in a square formation.",
+        "final_cleaned_caption": "Containers containing 4 silver discs arranged in a square formation"
+    },
+    {
+        "row_index": 87,
+        "image_id": "P1010785",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on wheels.",
+        "final_cleaned_caption": "Containers of metal on wheels"
+    },
+    {
+        "row_index": 89,
+        "image_id": "P1010868",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "be working on or inspecting the industrial machine.",
+        "final_cleaned_caption": "Be working on or inspecting the industrial machine"
+    },
+    {
+        "row_index": 90,
+        "image_id": "zea_1_vs_visit_01",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 91,
+        "image_id": "zea_1_vs_visit_03",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urn containing a large metal disc with 8 holes on its top.",
+        "final_cleaned_caption": "Containers containing a large metal disc with 8 holes on its top"
+    },
+    {
+        "row_index": 92,
+        "image_id": "zea_1_vs_visit_06",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "attentively observing him.",
+        "final_cleaned_caption": "Attentively observing him"
+    },
+    {
+        "row_index": 93,
+        "image_id": "zea_1_vs_visit_09",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the content displayed on the board.",
+        "final_cleaned_caption": "The content displayed on the board"
+    },
+    {
+        "row_index": 94,
+        "image_id": "zea_1_vs_visit_10",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "work.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 95,
+        "image_id": "zea_1_vs_visit_13",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 96,
+        "image_id": "zea_1_vs_visit_14",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of water on top of a blue metal frame.",
+        "final_cleaned_caption": "Containers of water on top of a blue metal frame"
+    },
+    {
+        "row_index": 97,
+        "image_id": "zea_1_vs_visit_17",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "a blue top and a smaller white cylinder.",
+        "final_cleaned_caption": "A blue top and a smaller white cylinder"
+    },
+    {
+        "row_index": 98,
+        "image_id": "zea_1_vs_visit_20",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "on display.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 99,
+        "image_id": "zea_1_vs_visit_21",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "closely.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 100,
+        "image_id": "zea_1_vs_visit_22",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "and black pants. They appear to be inspecting or discussing the machinery.",
+        "final_cleaned_caption": "And black pants. they appear to be inspecting or discussing the machinery"
+    },
+    {
+        "row_index": 101,
+        "image_id": "zea_1_vs_visit_28",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 102,
+        "image_id": "zea_1_vs_visit_31",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 103,
+        "image_id": "zea_1_vs_visit_32",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "possibly used for manufacturing or assembly processes.",
+        "final_cleaned_caption": "Possibly used for manufacturing or assembly processes"
+    },
+    {
+        "row_index": 104,
+        "image_id": "zea_1_vs_visit_34",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "mask.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 105,
+        "image_id": "zea_1_vs_visit_35",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "jeans.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 106,
+        "image_id": "zea_1_vs_visit_36",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "inspection.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 107,
+        "image_id": "zea_1_vs_visit_37",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of liquid on a table.",
+        "final_cleaned_caption": "Containers of liquid on a table"
+    },
+    {
+        "row_index": 108,
+        "image_id": "zea_1_vs_visit_41",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "various other machines and equipment visible throughout the space.",
+        "final_cleaned_caption": "Various other machines and equipment visible throughout the space"
+    },
+    {
+        "row_index": 109,
+        "image_id": "zea_1_vs_visit_42",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "suggesting that this could be a laboratory setting.",
+        "final_cleaned_caption": "Suggesting that this could be a laboratory setting"
+    },
+    {
+        "row_index": 110,
+        "image_id": "zea_1_vs_visit_51",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "it, likely indicating specific areas for movement within the factory.",
+        "final_cleaned_caption": "It, likely indicating specific areas for movement within the factory"
+    },
+    {
+        "row_index": 111,
+        "image_id": "zea_1_vs_visit_52",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machines and equipment scattered throughout the space.",
+        "final_cleaned_caption": "Machines and equipment scattered throughout the space"
+    },
+    {
+        "row_index": 112,
+        "image_id": "zea_1_vs_visit_55",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of metal on a table.",
+        "final_cleaned_caption": "Containers of metal on a table"
+    },
+    {
+        "row_index": 113,
+        "image_id": "zea_1_vs_visit_56",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "are likely used for industrial purposes or maintenance tasks.",
+        "final_cleaned_caption": "Are likely used for industrial purposes or maintenance tasks"
+    },
+    {
+        "row_index": 114,
+        "image_id": "zea_1_vs_visit_63",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "discussing its functionality, maintenance, or design aspects.",
+        "final_cleaned_caption": "Discussing its functionality, maintenance, or design aspects"
+    },
+    {
+        "row_index": 115,
+        "image_id": "zea_1_vs_visit_64",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "providing a neutral backdrop for the industrial equipment.",
+        "final_cleaned_caption": "Providing a neutral backdrop for the industrial equipment"
+    },
+    {
+        "row_index": 116,
+        "image_id": "zea_1_vs_visit_73",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "monitor and a keyboard.",
+        "final_cleaned_caption": "Monitor and a keyboard"
+    },
+    {
+        "row_index": 117,
+        "image_id": "zea_1_vs_visit_78",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "behind them.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 119,
+        "image_id": "zea_1_vs_visit_83",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the required style in the sense of sentence structure is shown below, do not copy and paste the exact words deduce the style from the example and apply it to the image you are describing:- A stainless steel disc with a finished surface and 8 threaded holesNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "urns of water on a table.",
+        "final_cleaned_caption": "Containers of water on a table"
+    }
+]

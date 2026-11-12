@@ -251,10 +251,37 @@ image-captioning/
 ### 4) Install dependencies from the requirements file.
 
 ### 5) To test image-captioning, run the Moondream model from command line like:
+
+Zero-Shot:
+
+Demo:
 python generate_captions_moondream.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream.xlsx
-python evaluate_captions.py --excel demo/image_metadata_with_qwen25vl_conf6.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream.xlsx
+
+Data:
+python generate_captions_moondream.py --excel data/image_metadata.xlsx --output output/moondream_results.xlsx
+python evaluate_captions.py --excel output/moondream_results.xlsx
+
+One-Shot:
+
+Demo
+python generate_captions_moondream_oneshot.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream_oneshot.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream_oneshot.xlsx
+
+Data
+python generate_captions_moondream_oneshot.py --excel data/image_metadata.xlsx --output output/moondream_oneshot_results.xlsx
+python evaluate_captions.py --excel output/moondream_oneshot_results.xlsx
 
 
+Few-Shot:
+
+Demo
+python generate_captions_moondream_fewshot.py --excel demo/ic_demo.xlsx --output demo/ic_demo_with_moondream_fewshot.xlsx
+python evaluate_captions.py --excel demo/ic_demo_with_moondream_fewshot.xlsx
+
+Data
+python generate_captions_moondream_fewshot.py --excel data/image_metadata.xlsx --output output/moondream_fewshot_results.xlsx
+python evaluate_captions.py --excel output/moondream_fewshot_results.xlsx
 ---
 
 ## License

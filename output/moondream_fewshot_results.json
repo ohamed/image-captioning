@@ -1,0 +1,962 @@
+[
+    {
+        "row_index": 0,
+        "image_id": "20180105_101214",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "process.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 1,
+        "image_id": "20180105_101224",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece with a digital caliper.",
+        "final_cleaned_caption": "Workpiece with a digital caliper"
+    },
+    {
+        "row_index": 2,
+        "image_id": "20180302_135657",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machine to adjust the workpiece's dimensions.",
+        "final_cleaned_caption": "Machine to adjust the workpiece's dimensions"
+    },
+    {
+        "row_index": 3,
+        "image_id": "20180302_135706",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the workpiece's dimensions, which are being measured by a digital caliper.",
+        "final_cleaned_caption": "The workpiece's dimensions, which are being measured by a digital caliper"
+    },
+    {
+        "row_index": 4,
+        "image_id": "20180418-Vortest-1",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "be in use.",
+        "final_cleaned_caption": "Be in use"
+    },
+    {
+        "row_index": 5,
+        "image_id": "20180418-Vortest-2",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "various tools for precise measurements and adjustments.",
+        "final_cleaned_caption": "Various tools for precise measurements and adjustments"
+    },
+    {
+        "row_index": 6,
+        "image_id": "DSC03030",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machine that is currently in the process of turning the disc.",
+        "final_cleaned_caption": "Machine that is currently in the process of turning the disc"
+    },
+    {
+        "row_index": 7,
+        "image_id": "DSCN0156",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measuring and adjusting workpieces.",
+        "final_cleaned_caption": "Measuring and adjusting workpieces"
+    },
+    {
+        "row_index": 8,
+        "image_id": "DSCN0160",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece with a digital caliper.",
+        "final_cleaned_caption": "Workpiece with a digital caliper"
+    },
+    {
+        "row_index": 9,
+        "image_id": "DSCN0163",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "and a digital caliper. A motor unit is also present in the scene.",
+        "final_cleaned_caption": "And a digital caliper. a motor unit is also present in the scene"
+    },
+    {
+        "row_index": 10,
+        "image_id": "DSCN0174",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "tools can be seen in the background, indicating an industrial setting.",
+        "final_cleaned_caption": "Tools can be seen in the background, indicating an industrial setting"
+    },
+    {
+        "row_index": 11,
+        "image_id": "DSCN0177",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "to the bag.",
+        "final_cleaned_caption": "To the bag"
+    },
+    {
+        "row_index": 12,
+        "image_id": "DSCN0190",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "caliper for precise measurements.",
+        "final_cleaned_caption": "Caliper for precise measurements"
+    },
+    {
+        "row_index": 13,
+        "image_id": "DSC_0078",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "place in a warehouse or industrial setting.",
+        "final_cleaned_caption": "Place in a warehouse or industrial setting"
+    },
+    {
+        "row_index": 14,
+        "image_id": "DSC_0080",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "some small holes on the top left corner of the box.",
+        "final_cleaned_caption": "Some small holes on the top left corner of the box"
+    },
+    {
+        "row_index": 15,
+        "image_id": "IMG_0447",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "a digital caliper.",
+        "final_cleaned_caption": "A digital caliper"
+    },
+    {
+        "row_index": 16,
+        "image_id": "IMG_0448",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's diameter to be 8 threaded holes in diameter.",
+        "final_cleaned_caption": "Workpiece's diameter to be 8 threaded holes in diameter"
+    },
+    {
+        "row_index": 17,
+        "image_id": "IMG_0450",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "white wall with a fire extinguisher mounted on it.",
+        "final_cleaned_caption": "White wall with a fire extinguisher mounted on it"
+    },
+    {
+        "row_index": 18,
+        "image_id": "IMG_0452",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the milling machine, which measures the workpiece's dimensions.",
+        "final_cleaned_caption": "The milling machine, which measures the workpiece's dimensions"
+    },
+    {
+        "row_index": 19,
+        "image_id": "IMG_0454",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the process of turning the disc.",
+        "final_cleaned_caption": "The process of turning the disc"
+    },
+    {
+        "row_index": 20,
+        "image_id": "IMG_0462",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "overalls and gloves as well.",
+        "final_cleaned_caption": "Overalls and gloves as well"
+    },
+    {
+        "row_index": 21,
+        "image_id": "IMG_2763",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "in the background.",
+        "final_cleaned_caption": "In the background"
+    },
+    {
+        "row_index": 22,
+        "image_id": "IMG_2764",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "or maintenance activity.",
+        "final_cleaned_caption": "Or maintenance activity"
+    },
+    {
+        "row_index": 23,
+        "image_id": "IMG_2767",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "manufacturing process.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 24,
+        "image_id": "IMG_2768",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "precision engineering or manufacturing processes.",
+        "final_cleaned_caption": "Precision engineering or manufacturing processes"
+    },
+    {
+        "row_index": 25,
+        "image_id": "IMG_3411",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "or maintenance work on the machine.",
+        "final_cleaned_caption": "Or maintenance work on the machine"
+    },
+    {
+        "row_index": 26,
+        "image_id": "IMG_3414",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "surface, providing a clean workspace.",
+        "final_cleaned_caption": "Surface, providing a clean workspace"
+    },
+    {
+        "row_index": 27,
+        "image_id": "IMG_3424",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "or industrial setting.",
+        "final_cleaned_caption": "Or industrial setting"
+    },
+    {
+        "row_index": 28,
+        "image_id": "IMG_3425",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "seen operating a milling machine in the background.",
+        "final_cleaned_caption": "Seen operating a milling machine in the background"
+    },
+    {
+        "row_index": 29,
+        "image_id": "P1010314",
+        "category": "Reflector",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "are part of a larger project or assembly process.",
+        "final_cleaned_caption": "Are part of a larger project or assembly process"
+    },
+    {
+        "row_index": 30,
+        "image_id": "erster RU-Motor ohne Bremse (2)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machine, which is situated in front of a green pole.",
+        "final_cleaned_caption": "Machine, which is situated in front of a green pole"
+    },
+    {
+        "row_index": 31,
+        "image_id": "erster RU-Motor ohne Bremse (3)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "tools for measuring workpieces.",
+        "final_cleaned_caption": "Tools for measuring workpieces"
+    },
+    {
+        "row_index": 32,
+        "image_id": "erster RU-Motor ohne Bremse (4)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "taken during the assembly process.",
+        "final_cleaned_caption": "Taken during the assembly process"
+    },
+    {
+        "row_index": 33,
+        "image_id": "erster RU-Motor ohne Bremse (5)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "appears to be made of metal.",
+        "final_cleaned_caption": "Appears to be made of metal"
+    },
+    {
+        "row_index": 34,
+        "image_id": "erster RU-Motor ohne Bremse (6)",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece using a digital caliper.",
+        "final_cleaned_caption": "Workpiece using a digital caliper"
+    },
+    {
+        "row_index": 35,
+        "image_id": "IMG_4784",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measurements.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 36,
+        "image_id": "IMG_4787",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "caliper.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 37,
+        "image_id": "IMG_4792",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "beneath these objects appears to be made of concrete or gray material.",
+        "final_cleaned_caption": "Beneath these objects appears to be made of concrete or gray material"
+    },
+    {
+        "row_index": 38,
+        "image_id": "P1010175",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measure the workpiece, which appears to be a motor unit.",
+        "final_cleaned_caption": "Measure the workpiece, which appears to be a motor unit"
+    },
+    {
+        "row_index": 39,
+        "image_id": "P1010200",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's dimensions using a digital caliper.",
+        "final_cleaned_caption": "Workpiece's dimensions using a digital caliper"
+    },
+    {
+        "row_index": 40,
+        "image_id": "P1010222",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measure the workpiece's dimensions.",
+        "final_cleaned_caption": "Measure the workpiece's dimensions"
+    },
+    {
+        "row_index": 41,
+        "image_id": "P1010224",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece with a digital caliper.",
+        "final_cleaned_caption": "Workpiece with a digital caliper"
+    },
+    {
+        "row_index": 42,
+        "image_id": "P1010225",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "digital caliper.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 43,
+        "image_id": "P1010226",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "motor while measuring the workpiece using a digital caliper.",
+        "final_cleaned_caption": "Motor while measuring the workpiece using a digital caliper"
+    },
+    {
+        "row_index": 44,
+        "image_id": "P1010228",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "operating a milling machine to measure the workpiece's dimensions.",
+        "final_cleaned_caption": "Operating a milling machine to measure the workpiece's dimensions"
+    },
+    {
+        "row_index": 45,
+        "image_id": "P1010230",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machine.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 46,
+        "image_id": "P1010267",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "metal plate and a blue plastic bag.",
+        "final_cleaned_caption": "Metal plate and a blue plastic bag"
+    },
+    {
+        "row_index": 47,
+        "image_id": "P1010323",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the workpiece, which is placed on a brick floor.",
+        "final_cleaned_caption": "The workpiece, which is placed on a brick floor"
+    },
+    {
+        "row_index": 48,
+        "image_id": "P1010335",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "diagnostic equipment attached\".",
+        "final_cleaned_caption": "Diagnostic equipment attached\""
+    },
+    {
+        "row_index": 49,
+        "image_id": "P1010337",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "milling machine to measure a workpiece.",
+        "final_cleaned_caption": "Milling machine to measure a workpiece"
+    },
+    {
+        "row_index": 50,
+        "image_id": "P1010338",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "wall in the background and a brown carpeted area adjacent to it.",
+        "final_cleaned_caption": "Wall in the background and a brown carpeted area adjacent to it"
+    },
+    {
+        "row_index": 51,
+        "image_id": "P1010347",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "in a workshop setting.",
+        "final_cleaned_caption": "In a workshop setting"
+    },
+    {
+        "row_index": 52,
+        "image_id": "P1010544",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measures the dimensions of the components.",
+        "final_cleaned_caption": "Measures the dimensions of the components"
+    },
+    {
+        "row_index": 53,
+        "image_id": "P1010601",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "connections and a digital caliper used for measuring workpieces.",
+        "final_cleaned_caption": "Connections and a digital caliper used for measuring workpieces"
+    },
+    {
+        "row_index": 54,
+        "image_id": "P1010616",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "with a digital caliper.",
+        "final_cleaned_caption": "With a digital caliper"
+    },
+    {
+        "row_index": 55,
+        "image_id": "P1010617",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "with a digital caliper.",
+        "final_cleaned_caption": "With a digital caliper"
+    },
+    {
+        "row_index": 56,
+        "image_id": "P1010621",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece with a digital caliper.",
+        "final_cleaned_caption": "Workpiece with a digital caliper"
+    },
+    {
+        "row_index": 57,
+        "image_id": "P1010623",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's dimensions using a digital caliper.",
+        "final_cleaned_caption": "Workpiece's dimensions using a digital caliper"
+    },
+    {
+        "row_index": 58,
+        "image_id": "P1010625",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "dimensions.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 59,
+        "image_id": "P1010627",
+        "category": "RU",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "in the process of cutting the disc, which is resting on a yellow baseplate.",
+        "final_cleaned_caption": "In the process of cutting the disc, which is resting on a yellow baseplate"
+    },
+    {
+        "row_index": 60,
+        "image_id": "Montage_Rotation_Unit (1)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's dimensions, which are displayed on a digital caliper.",
+        "final_cleaned_caption": "Workpiece's dimensions, which are displayed on a digital caliper"
+    },
+    {
+        "row_index": 61,
+        "image_id": "Montage_Rotation_Unit (11)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "image.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 62,
+        "image_id": "Montage_Rotation_Unit (12)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpieces to ensure precision in their production process.",
+        "final_cleaned_caption": "Workpieces to ensure precision in their production process"
+    },
+    {
+        "row_index": 63,
+        "image_id": "Montage_Rotation_Unit (13)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "caliper.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 64,
+        "image_id": "Montage_Rotation_Unit (2)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "them.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 65,
+        "image_id": "Montage_Rotation_Unit (3)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "be seen in the background, possibly working on one of these tasks.",
+        "final_cleaned_caption": "Be seen in the background, possibly working on one of these tasks"
+    },
+    {
+        "row_index": 66,
+        "image_id": "Montage_Rotation_Unit (4)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "observing the work being done by their colleague.",
+        "final_cleaned_caption": "Observing the work being done by their colleague"
+    },
+    {
+        "row_index": 67,
+        "image_id": "Montage_Rotation_Unit (5)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "are blue chairs and a black chair, suggesting a workspace or assembly area.",
+        "final_cleaned_caption": "Are blue chairs and a black chair, suggesting a workspace or assembly area"
+    },
+    {
+        "row_index": 68,
+        "image_id": "Montage_Rotation_Unit (7)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's dimensions, likely for quality control purposes.",
+        "final_cleaned_caption": "Workpiece's dimensions, likely for quality control purposes"
+    },
+    {
+        "row_index": 69,
+        "image_id": "Montage_Rotation_Unit (8)",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "presence of other industrial equipment or materials.",
+        "final_cleaned_caption": "Presence of other industrial equipment or materials"
+    },
+    {
+        "row_index": 70,
+        "image_id": "P1010683",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measures the workpiece's dimensions using a digital caliper.",
+        "final_cleaned_caption": "Measures the workpiece's dimensions using a digital caliper"
+    },
+    {
+        "row_index": 71,
+        "image_id": "P1010684",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "dimensions.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 72,
+        "image_id": "P1010685",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "dimensions.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 73,
+        "image_id": "P1010686",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "dimensions.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 74,
+        "image_id": "P1010687",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measure the workpiece, which appears to be a motor unit.",
+        "final_cleaned_caption": "Measure the workpiece, which appears to be a motor unit"
+    },
+    {
+        "row_index": 75,
+        "image_id": "P1010688",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the workpiece, which appears to be a motor unit.",
+        "final_cleaned_caption": "The workpiece, which appears to be a motor unit"
+    },
+    {
+        "row_index": 76,
+        "image_id": "P1010689",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "dimensions.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 77,
+        "image_id": "P1010690",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "the disc's dimensions, which are being measured by a digital caliper.",
+        "final_cleaned_caption": "The disc's dimensions, which are being measured by a digital caliper"
+    },
+    {
+        "row_index": 78,
+        "image_id": "P1010691",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece with a digital caliper.",
+        "final_cleaned_caption": "Workpiece with a digital caliper"
+    },
+    {
+        "row_index": 79,
+        "image_id": "P1010692",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "measure the workpiece, which appears to be a motor unit.",
+        "final_cleaned_caption": "Measure the workpiece, which appears to be a motor unit"
+    },
+    {
+        "row_index": 80,
+        "image_id": "P1010694",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "milling machine that measures the workpiece's dimensions.",
+        "final_cleaned_caption": "Milling machine that measures the workpiece's dimensions"
+    },
+    {
+        "row_index": 81,
+        "image_id": "P1010695",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "work.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 82,
+        "image_id": "P1010696",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "industrial or manufacturing setting.",
+        "final_cleaned_caption": "Industrial or manufacturing setting"
+    },
+    {
+        "row_index": 83,
+        "image_id": "P1010697",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "right across the frame.",
+        "final_cleaned_caption": "Right across the frame"
+    },
+    {
+        "row_index": 84,
+        "image_id": "P1010698",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "workpiece's dimensions using a digital caliper.",
+        "final_cleaned_caption": "Workpiece's dimensions using a digital caliper"
+    },
+    {
+        "row_index": 85,
+        "image_id": "P1010703",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machine that measures the workpiece using a digital caliper.",
+        "final_cleaned_caption": "Machine that measures the workpiece using a digital caliper"
+    },
+    {
+        "row_index": 86,
+        "image_id": "P1010704",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "within 0.1mm accuracy.",
+        "final_cleaned_caption": "Within 0.1mm accuracy"
+    },
+    {
+        "row_index": 87,
+        "image_id": "P1010785",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "with other machines and equipment visible in the background.",
+        "final_cleaned_caption": "With other machines and equipment visible in the background"
+    },
+    {
+        "row_index": 88,
+        "image_id": "P1010858",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "overseeing the process or waiting for instructions.",
+        "final_cleaned_caption": "Overseeing the process or waiting for instructions"
+    },
+    {
+        "row_index": 89,
+        "image_id": "P1010868",
+        "category": "RU-Montage",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "characterized by large windows allowing natural light to flood the space.",
+        "final_cleaned_caption": "Characterized by large windows allowing natural light to flood the space"
+    },
+    {
+        "row_index": 90,
+        "image_id": "zea_1_vs_visit_01",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "each other, one of them wearing a suit and tie.",
+        "final_cleaned_caption": "Each other, one of them wearing a suit and tie"
+    },
+    {
+        "row_index": 91,
+        "image_id": "zea_1_vs_visit_03",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "parked outside, and another man can be seen walking away from the scene.",
+        "final_cleaned_caption": "Parked outside, and another man can be seen walking away from the scene"
+    },
+    {
+        "row_index": 92,
+        "image_id": "zea_1_vs_visit_06",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "diagrams are used for instruction and guidance purposes.",
+        "final_cleaned_caption": "Diagrams are used for instruction and guidance purposes"
+    },
+    {
+        "row_index": 93,
+        "image_id": "zea_1_vs_visit_09",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "setting with various equipment and machinery on display.",
+        "final_cleaned_caption": "Setting with various equipment and machinery on display"
+    },
+    {
+        "row_index": 94,
+        "image_id": "zea_1_vs_visit_10",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "industrial processes and equipment.",
+        "final_cleaned_caption": "Industrial processes and equipment"
+    },
+    {
+        "row_index": 95,
+        "image_id": "zea_1_vs_visit_13",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "working on a project together.",
+        "final_cleaned_caption": "Working on a project together"
+    },
+    {
+        "row_index": 96,
+        "image_id": "zea_1_vs_visit_14",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "engaged in some sort of technical discussion or demonstration.",
+        "final_cleaned_caption": "Engaged in some sort of technical discussion or demonstration"
+    },
+    {
+        "row_index": 97,
+        "image_id": "zea_1_vs_visit_17",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "test bench and electrical connections attached to it.",
+        "final_cleaned_caption": "Test bench and electrical connections attached to it"
+    },
+    {
+        "row_index": 98,
+        "image_id": "zea_1_vs_visit_20",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "table and observing the interaction between the other three men.",
+        "final_cleaned_caption": "Table and observing the interaction between the other three men"
+    },
+    {
+        "row_index": 99,
+        "image_id": "zea_1_vs_visit_21",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "safety purposes.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 100,
+        "image_id": "zea_1_vs_visit_22",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "specifications and quality.",
+        "final_cleaned_caption": "Specifications and quality"
+    },
+    {
+        "row_index": 101,
+        "image_id": "zea_1_vs_visit_28",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "scene.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 102,
+        "image_id": "zea_1_vs_visit_31",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "individual is holding a digital caliper.",
+        "final_cleaned_caption": "Individual is holding a digital caliper"
+    },
+    {
+        "row_index": 103,
+        "image_id": "zea_1_vs_visit_32",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "machinery, indicating a high-tech environment.",
+        "final_cleaned_caption": "Machinery, indicating a high-tech environment"
+    },
+    {
+        "row_index": 104,
+        "image_id": "zea_1_vs_visit_34",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "while measuring the workpiece with a digital caliper.",
+        "final_cleaned_caption": "While measuring the workpiece with a digital caliper"
+    },
+    {
+        "row_index": 105,
+        "image_id": "zea_1_vs_visit_35",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "possibly a factory or workshop environment.",
+        "final_cleaned_caption": "Possibly a factory or workshop environment"
+    },
+    {
+        "row_index": 106,
+        "image_id": "zea_1_vs_visit_36",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "inspecting the operation of the large industrial machine.",
+        "final_cleaned_caption": "Inspecting the operation of the large industrial machine"
+    },
+    {
+        "row_index": 107,
+        "image_id": "zea_1_vs_visit_37",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "setting.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 108,
+        "image_id": "zea_1_vs_visit_41",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "possibly used for conducting experiments or performing maintenance tasks.",
+        "final_cleaned_caption": "Possibly used for conducting experiments or performing maintenance tasks"
+    },
+    {
+        "row_index": 109,
+        "image_id": "zea_1_vs_visit_42",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "a test bench, which has various components attached to it.",
+        "final_cleaned_caption": "A test bench, which has various components attached to it"
+    },
+    {
+        "row_index": 110,
+        "image_id": "zea_1_vs_visit_51",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "manufactured on conveyor belts.",
+        "final_cleaned_caption": "Manufactured on conveyor belts"
+    },
+    {
+        "row_index": 111,
+        "image_id": "zea_1_vs_visit_52",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "might be an industrial setting or factory floor.",
+        "final_cleaned_caption": "Might be an industrial setting or factory floor"
+    },
+    {
+        "row_index": 112,
+        "image_id": "zea_1_vs_visit_55",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "running along its top and a gray floor.",
+        "final_cleaned_caption": "Running along its top and a gray floor"
+    },
+    {
+        "row_index": 113,
+        "image_id": "zea_1_vs_visit_56",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "as a motor unit mounted on a test bench.",
+        "final_cleaned_caption": "As a motor unit mounted on a test bench"
+    },
+    {
+        "row_index": 114,
+        "image_id": "zea_1_vs_visit_63",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "engineer involved in the project.",
+        "final_cleaned_caption": "Engineer involved in the project"
+    },
+    {
+        "row_index": 115,
+        "image_id": "zea_1_vs_visit_64",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "equipment and tools visible around them.",
+        "final_cleaned_caption": "Equipment and tools visible around them"
+    },
+    {
+        "row_index": 116,
+        "image_id": "zea_1_vs_visit_73",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "these items.",
+        "final_cleaned_caption": "Containers and equipment in a lab"
+    },
+    {
+        "row_index": 117,
+        "image_id": "zea_1_vs_visit_78",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "using a laptop that is placed on the table.",
+        "final_cleaned_caption": "Using a laptop that is placed on the table"
+    },
+    {
+        "row_index": 118,
+        "image_id": "zea_1_vs_visit_80",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "appears to be black, providing contrast for the neon sign.",
+        "final_cleaned_caption": "Appears to be black, providing contrast for the neon sign"
+    },
+    {
+        "row_index": 119,
+        "image_id": "zea_1_vs_visit_83",
+        "category": "Visits",
+        "prompt_used": "You are a technical documentation expert. Describe what is visible in this image using concise, lowercase, noun-focused language. Identify objects, materials, components, actions, and spatial arrangements. Examples of the exact required style:- A stainless steel disc with a finished surface and 8 threaded holes- A motor unit is mounted on a test bench, with electrical connections and diagnostic equipment attached.- technician wearing safety glasses operating milling machine while measuring workpiece with digital caliperNow describe this image in the same objective, noun-heavy technical style: ",
+        "raw_model_output": "building they're in appears to be a factory or industrial setting.",
+        "final_cleaned_caption": "Building they're in appears to be a factory or industrial setting"
+    }
+]
